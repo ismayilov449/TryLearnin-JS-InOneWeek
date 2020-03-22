@@ -99,12 +99,12 @@ var cars = ['BMW','Mercedes','Opel','Mazda'];
 // console.log(cars);
 
 
-var str = 'vaz,qaz';
-var arr = str.split(',');
-console.log(arr);
+// var str = 'vaz,qaz';
+// var arr = str.split(',');
+// console.log(arr);
 
-var newarr = arr.concat(cars);
-console.log(newarr);
+// var newarr = arr.concat(cars);
+// console.log(newarr);
 
-var newarr = newarr.slice(0,newarr.length-2);
-console.log(newarr);
+// var newarr = newarr.slice(0,newarr.length-2);
+// console.log(newarr);
