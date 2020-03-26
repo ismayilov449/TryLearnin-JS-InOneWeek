@@ -1,0 +1,40 @@
+{
+    "employess": [
+        {
+            "name": "Rufat",
+            "lastName": "Ismayilov",
+            "age": 21,
+            "retired" : false
+        },
+        {
+            "name": "Adam2",
+            "lastName": "Adamli2",
+            "age": 22,
+            "retired" : true
+        },
+        {
+            "name": "Adam3",
+            "lastName": "Adamli3",
+            "age": 23,
+            "retired" : false
+        },
+        {
+            "name": "Adam4",
+            "lastName": "Adamli4",
+            "age": 24,
+            "retired" : true
+        },
+        {
+            "name": "Adam5",
+            "lastName": "Adamli5",
+            "age": 25,
+            "retired" : false
+        },
+        {
+            "name": "Adam6",
+            "lastName": "Adamli6",
+            "age": 26,
+            "retired" : true
+        }
+    ]
+}

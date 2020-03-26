@@ -18,14 +18,21 @@
             <div class="col">
 
                 <form class="input-group mb-3">
-                    <input type="text" class="form-control" aria-describedby="getData">
+                    <input type="text" id="postI" class="form-control" aria-describedby="getData">
                     <div class="input-group-append">
                         <button class="btn btn-primary" type="button" id="getOne">Get One</button>
-                        <button class="btn btn-success" type="button" id="getAll">Get One</button>
+                        <button class="btn btn-success" type="button" id="getAll">Get All</button>
+                        <button class="btn btn-warning" type="button" id="postData">Post</button>
 
                     </div>
 
                 </form>
+
+                <div id="loading">
+                    <img src="JS/loading.gif" alt="" width="100">
+                </div>
+
+                <div id="results"></div>
 
             </div>
         </div>
@@ -35,7 +42,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-    <script src="modernJs/httpgetwithrestapi.js"></script>
+    <script src="JS/modernJs/httpgetwithrestapi.js"></script>
 </body>
 
 </html>
